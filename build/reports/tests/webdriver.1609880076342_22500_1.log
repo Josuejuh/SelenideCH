@@ -1,0 +1,215 @@
+[1609880076.723][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 16325
+[1609880076.723][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1609880077.554][INFO]: [a59ca99632ee45027437e15858bfb424] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Jared Urquilla\\IdeaProjects\\SelenidePR\\build\\downloads\\1609880076222_22500_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Jared Urquilla\\IdeaProjects\\SelenidePR\\build\\downloads\\1609880076222_22500_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1609880077.560][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Jared Urquilla\\IdeaProjects\\SelenidePR\\build\\downloads\\1609880076222_22500_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1609880077.568][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1609880077.575][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\JAREDU~1\AppData\Local\Temp\scoped_dir7892_1417731506" data:,
+[1609880078.220][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1609880080.278][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1609880082.309][INFO]: [a59ca99632ee45027437e15858bfb424] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.88",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "C:\\Users\\JAREDU~1\\AppData\\Local\\Temp\\scoped_dir7892_1417731506"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55464"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "a59ca99632ee45027437e15858bfb424"
+}
+[1609880082.374][INFO]: [a59ca99632ee45027437e15858bfb424] COMMAND MaximizeWindow {
+
+}
+[1609880082.374][INFO]: Waiting for pending navigations...
+[1609880082.377][INFO]: Done waiting for pending navigations. Status: ok
+[1609880082.507][INFO]: Waiting for pending navigations...
+[1609880082.508][INFO]: Done waiting for pending navigations. Status: ok
+[1609880082.508][INFO]: [a59ca99632ee45027437e15858bfb424] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1609880082.514][INFO]: [a59ca99632ee45027437e15858bfb424] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1609880082.514][INFO]: [a59ca99632ee45027437e15858bfb424] RESPONSE SetTimeouts
+[1609880082.524][INFO]: [a59ca99632ee45027437e15858bfb424] COMMAND Navigate {
+   "url": "http://automationpractice.com/index.php"
+}
+[1609880082.524][INFO]: Waiting for pending navigations...
+[1609880082.525][INFO]: Done waiting for pending navigations. Status: ok
+[1609880083.244][INFO]: Waiting for pending navigations...
+[1609880084.900][INFO]: Done waiting for pending navigations. Status: ok
+[1609880084.900][INFO]: [a59ca99632ee45027437e15858bfb424] RESPONSE Navigate
+[1609880085.027][INFO]: [a59ca99632ee45027437e15858bfb424] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#search_query_top"
+}
+[1609880085.027][INFO]: Waiting for pending navigations...
+[1609880085.028][INFO]: Done waiting for pending navigations. Status: ok
+[1609880085.041][INFO]: Waiting for pending navigations...
+[1609880085.042][INFO]: Done waiting for pending navigations. Status: ok
+[1609880085.042][INFO]: [a59ca99632ee45027437e15858bfb424] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "80c531d2-a2c2-44a3-8960-d51870f95db0"
+}
+[1609880085.050][INFO]: [a59ca99632ee45027437e15858bfb424] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "80c531d2-a2c2-44a3-8960-d51870f95db0",
+      "element-6066-11e4-a52e-4f735466cecf": "80c531d2-a2c2-44a3-8960-d51870f95db0"
+   } ],
+   "script": "arguments[0].style.border='3px solid red'"
+}
+[1609880085.050][INFO]: Waiting for pending navigations...
+[1609880085.051][INFO]: Done waiting for pending navigations. Status: ok
+[1609880085.081][INFO]: Waiting for pending navigations...
+[1609880085.086][INFO]: Done waiting for pending navigations. Status: ok
+[1609880085.086][INFO]: [a59ca99632ee45027437e15858bfb424] RESPONSE ExecuteScript null
+[1609880085.091][INFO]: [a59ca99632ee45027437e15858bfb424] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#search_query_top"
+}
+[1609880085.091][INFO]: Waiting for pending navigations...
+[1609880085.092][INFO]: Done waiting for pending navigations. Status: ok
+[1609880085.099][INFO]: Waiting for pending navigations...
+[1609880085.100][INFO]: Done waiting for pending navigations. Status: ok
+[1609880085.100][INFO]: [a59ca99632ee45027437e15858bfb424] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "80c531d2-a2c2-44a3-8960-d51870f95db0"
+}
+[1609880085.109][INFO]: [a59ca99632ee45027437e15858bfb424] COMMAND TypeElement {
+   "id": "80c531d2-a2c2-44a3-8960-d51870f95db0",
+   "text": "Prueba",
+   "value": [ "P", "r", "u", "e", "b", "a" ]
+}
+[1609880085.109][INFO]: Waiting for pending navigations...
+[1609880085.110][INFO]: Done waiting for pending navigations. Status: ok
+[1609880085.184][INFO]: Waiting for pending navigations...
+[1609880085.191][INFO]: Done waiting for pending navigations. Status: ok
+[1609880085.191][INFO]: [a59ca99632ee45027437e15858bfb424] RESPONSE TypeElement
