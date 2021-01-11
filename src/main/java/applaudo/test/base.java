@@ -1,18 +1,31 @@
 package applaudo.test;
 
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
+import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.Selenide;
+import org.junit.After;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
+
 public class base
 {
-    public WebDriver driver;
+
     public Properties prop;
+    static ExtentReports report;
 
-
-    public void initilizeDrive() throws IOException {
+    @BeforeClass
+    public void openBrowser() throws IOException {
 
         prop = new Properties();
         FileInputStream fis = new FileInputStream("files/data.properties");
@@ -20,29 +33,26 @@ public class base
         prop.load(fis);
         String namebr = prop.getProperty("browser");
 
-        if (namebr.equalsIgnoreCase("Chrome")) {
-            // Chrome
-            System.setProperty("webdriver.chrome.driver", "files/chromedriver.exe");
-            System.setProperty("selenide.browser", "Chrome");
+        //TODO - Modificar basetest usando anotaciones de testNG
+        Configuration.startMaximized = true;
+        Configuration.holdBrowserOpen = true;
+        Configuration.browser = "Firefox";
+        //Configurations report
+        ExtentHtmlReporter reporter=new ExtentHtmlReporter("./reports/ReportFull.html");
+        reporter.config().setReportName("Full Report");
+        reporter.config().setTheme(Theme.DARK);
+        reporter.config().setDocumentTitle("Full Report");
+        report = new ExtentReports();
+        report.attachReporter(reporter);
 
-        } else if (namebr.equalsIgnoreCase("Firefox")) {
-            // Firefox
-            System.setProperty("webdriver.gecko.driver", "files/geckodriver.exe");
-            System.setProperty("selenide.browser", "Firefox");
+        //Open URL on browser
+        open(prop.getProperty("url"));
 
+    }
 
-        } else if (namebr.equalsIgnoreCase("Explorer")) {
-            System.setProperty("webdriver.ie.driver", "files/IEDriverServer.exe");
-            System.setProperty("selenide.browser", "Internet Explorer");
-
-
-        } else if (namebr.equalsIgnoreCase("Edge")) {
-            // Edge
-            System.setProperty("webdriver.edge.driver", "files/msedgedriver.exe");
-            System.setProperty("selenide.browser", "Edge");
-
-
-        }
-
+    @AfterClass
+    public void closeBrowser(){
+        report.flush();
+        Selenide.closeWebDriver();
     }
 }

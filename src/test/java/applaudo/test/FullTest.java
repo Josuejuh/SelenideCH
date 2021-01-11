@@ -23,10 +23,10 @@ public class FullTest extends base
     @BeforeClass
     public void before() throws IOException {
         //Configurations for browser
-        initilizeDrive();
+        //initilizeDrive();
         Configuration.startMaximized = true;
         Configuration.holdBrowserOpen = true;
-
+        Configuration.browser = "Firefox";
         //Configurations report
         ExtentHtmlReporter reporter=new ExtentHtmlReporter("./reports/ReportFull.html");
         reporter.config().setReportName("Full Report");
