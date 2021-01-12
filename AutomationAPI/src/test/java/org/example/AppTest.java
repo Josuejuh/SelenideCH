@@ -17,7 +17,7 @@ public class AppTest
     @BeforeClass
     public void setup() throws IOException {
         prop = new Properties();
-        FileInputStream fis = new FileInputStream("files/data.properties");
+        FileInputStream fis = new FileInputStream("files/properties/data.properties");
         prop.load(fis);
 
         name = prop.getProperty("name");

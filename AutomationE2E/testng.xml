@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite01">
+    <test name="Test01">
+        <classes>
+            <class name="applaudo.test.base"/>
+            <class name="applaudo.test.productFlow"/>
+            <class name="applaudo.test.footerInfo"/>
+        </classes>
+    </test>
+</suite>

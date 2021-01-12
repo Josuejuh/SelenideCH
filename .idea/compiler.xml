@@ -8,7 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="AutomationAPI" />
         <module name="SelenideCH" />
+        <module name="AutomationE2E" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AutomationUI" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
