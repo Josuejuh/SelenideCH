@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AutomationAPI" />
-        <module name="SelenideCH" />
+        <module name="AutomationCore" />
         <module name="AutomationE2E" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AutomationUI" target="1.7" />
+      <module name="AutomationAPI" target="1.7" />
+      <module name="AutomationCore" target="15" />
+      <module name="AutomationE2E" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

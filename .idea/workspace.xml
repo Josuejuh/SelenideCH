@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d9d720a-a651-4615-bace-b8258a647011" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutomationCore/AutomationCore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutomationE2E/AutomationE2E.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationAPI/src/main/java/org/example/PojoCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationAPI/src/main/java/applaudo/PojoCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationAPI/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationAPI/src/test/java/applaudo/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationAPI/target/classes/org/example/PojoCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationAPI/target/test-classes/org/example/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationE2E/reports/ReportFull.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/reports/ReportFull.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/test/base.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/test/base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/test/base.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/test/base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelenideCH.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609876477764.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609876515680.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609876515680.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609876884602.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609876884602.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609877186430.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609877186430.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609877309140.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609877309140.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609878134177.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609878134177.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609878245585.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609878245585.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609878321144.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609878321144.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609878933270.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609878933270.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609879771928.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609879771928.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609882433709.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609882433709.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609887180133.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609887180133.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609887298386.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609887298386.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609887467664.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609887467664.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609889428937.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1609889428937.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1610382125794.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1610382125794.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609191209386_16768_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609191383503_11812_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609192153348_16476_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609192175785_10732_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609193497660_18576_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609193853075_18324_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609194027962_6004_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609194194713_1668_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609194234025_19140_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609772509572_7636_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609790181443_11148_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609876462479_3192_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609876501611_15816_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609876870829_12776_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609877172196_3468_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609877295662_6724_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609878120891_17912_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609878232336_13480_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609878307560_19896_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609878908598_4524_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609878980368_7444_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609879044725_22208_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609879747677_2124_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609880076342_22500_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609880489772_20892_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609881049781_6248_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609881297909_17568_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609882361459_3916_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609882420120_17744_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609883157218_14436_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609883205647_21816_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609883259158_6512_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609883451932_2280_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609883499873_18672_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609883777573_13796_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609883958559_21108_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609884176760_9372_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609885668529_21304_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609887145891_4356_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609887263734_12240_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609887432813_3312_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609887557389_8804_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609889390441_6720_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609889580971_20988_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609889681544_5948_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1609941551414_11948_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1610031843440_13456_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1610382085987_16664_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1610382830280_1864_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1myhqaEozNW1Kux5Qqh1BBdtuC5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RestCH" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AppTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="applaudo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="applaudo" />
+      <option name="MAIN_CLASS_NAME" value="applaudo.AppTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AppTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d9d720a-a651-4615-bace-b8258a647011" name="Default Changelist" comment="" />
+      <created>1610471933614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610471933614</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

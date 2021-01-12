@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutomationAPI/AutomationAPI.iml" filepath="$PROJECT_DIR$/AutomationAPI/AutomationAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutomationCore/AutomationCore.iml" filepath="$PROJECT_DIR$/AutomationCore/AutomationCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutomationE2E/AutomationE2E.iml" filepath="$PROJECT_DIR$/AutomationE2E/AutomationE2E.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SelenideCH.iml" filepath="$PROJECT_DIR$/.idea/SelenideCH.iml" />
+    </modules>
+  </component>
+</project>
