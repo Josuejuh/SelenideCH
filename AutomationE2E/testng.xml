@@ -3,7 +3,6 @@
 <suite name="Suite01">
     <test name="Test01">
         <classes>
-            <class name="applaudo.test.base"/>
             <class name="applaudo.test.productFlow"/>
             <class name="applaudo.test.footerInfo"/>
         </classes>

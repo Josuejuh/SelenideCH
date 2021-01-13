@@ -5,82 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8c17275-e0af-49a0-b4f6-82b292ce6da0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutomationCore/src/main/java/configClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationAPI/src/test/java/applaudo/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationAPI/AutomationAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationAPI/AutomationAPI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationAPI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationAPI/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationAPI/src/test/java/applaudo/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationAPI/src/test/java/applaudo/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationAPI/target/test-classes/applaudo/ApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationAPI/target/test-classes/applaudo/ApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationAPI/target/test-classes/applaudo/AppTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationCore/AutomationCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationCore/AutomationCore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationCore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationCore/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationCore/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationCore/src/main/java/configClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationCore/target/classes/configClass.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/AutomationE2E.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/AutomationE2E.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationE2E/files/data.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationE2E/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/reports/ReportFull.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/reports/ReportFull.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610031858596search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610031863827search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610031875088cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610031877970cartDel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610031878978cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610382102044search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610382108869search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610382128579cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610382849234search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610382855085search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610382874382cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610382877711cartDel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610382878596cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610399191823search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610399197528search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610399209675cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610399212693cartDel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610399213828cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610400022644search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610400028404search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610400040477cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610400043233cartDel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610400044199cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610400977096search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610400982832search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610400994589cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610400998289cartDel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610400999534cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610407505631search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610407588179search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610409494893search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610409498620search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610409505930cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610409507574cartDel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610409519960cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610409794019search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610409796619search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610409804921cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610409805616cartDel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610409815662cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610464471783search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610464474846search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610464480982cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610464481656cartDel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610464483745cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610465699862search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610465702664search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610465711219cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610465712084cartDel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610465715720cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610465770725search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610465773677search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610465782872cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610465783852cartDel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610465785905cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610469043477search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610469047187search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610469057439cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610469058066cartDel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/1610469058953cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/pageObject/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/pageObject/Home.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/test/base.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/src/test/java/applaudo/test/footerInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/utilities/highlight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/utilities/screenshots.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationE2E/src/test/java/applaudo/test/footerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/src/test/java/applaudo/test/footerInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/src/test/java/applaudo/test/productFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/src/test/java/applaudo/test/productFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/pageObject/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/pageObject/Home.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/test/base.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/test/base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/test/base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/utilities/highlight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/utilities/screenshots.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/target/test-classes/applaudo/test/footerInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/target/test-classes/applaudo/test/footerInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/target/test-classes/applaudo/test/productFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/target/test-classes/applaudo/test/productFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationE2E/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,11 +55,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AutomationCore" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JaredUrquilla\IdeaProjects\SelenideCH\AutomationE2E" />
+      <recent name="C:\Users\JaredUrquilla\IdeaProjects\SelenideCH\AutomationCore\src\main\java\utilities" />
+      <recent name="C:\Users\JaredUrquilla\IdeaProjects\SelenideCH\AutomationCore" />
+      <recent name="C:\Users\JaredUrquilla\IdeaProjects\SelenideCH\AutomationCore\extraClasses\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JaredUrquilla\IdeaProjects\SelenideCH\AutomationAPI" />
+      <recent name="C:\Users\JaredUrquilla\IdeaProjects\SelenideCH\AutomationE2E\files" />
+      <recent name="C:\Users\JaredUrquilla\IdeaProjects\SelenideCH\AutomationCore\files\properties" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/JaredUrquilla/IdeaProjects/SelenideCH/AutomationAPI/testng.xml">
     <configuration name="ApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationAPI" />
       <extension name="coverage">
@@ -128,8 +94,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/JaredUrquilla/IdeaProjects/SelenideCH/AutomationAPI/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationAPI" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/AutomationAPI/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/JaredUrquilla/IdeaProjects/SelenideCH/AutomationE2E/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationE2E" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/AutomationE2E/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/JaredUrquilla/IdeaProjects/SelenideCH/AutomationAPI/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/JaredUrquilla/IdeaProjects/SelenideCH/AutomationE2E/testng.xml" />
         <item itemvalue="TestNG.ApiTest" />
       </list>
     </recent_temporary>

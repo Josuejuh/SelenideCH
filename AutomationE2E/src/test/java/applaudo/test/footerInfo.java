@@ -1,20 +1,22 @@
 package applaudo.test;
 
+
 import applaudo.pageObject.*;
-import applaudo.utilities.*;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.codeborne.selenide.Condition;
+import config.baseE2E;
 import org.testng.annotations.Test;
+import utilities.highlight;
+import utilities.screenshots;
 import java.io.IOException;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
-public class footerInfo extends base {
+public class footerInfo extends baseE2E {
 
     @Test
     public void storeInfo() throws IOException {
         Home ho = new Home();
         test = report.createTest("Store Information");
-
         ho.contact01().shouldBe(Condition.visible);
 
         ho.scroll(ho.contact01(),getWebDriver());

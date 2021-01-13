@@ -2,15 +2,17 @@ package applaudo.test;
 
 
 import applaudo.pageObject.*;
-import applaudo.utilities.*;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.codeborne.selenide.Condition;
+import config.baseE2E;
 import org.testng.annotations.*;
+import utilities.highlight;
+import utilities.screenshots;
 import java.io.IOException;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
-public class productFlow extends base{
+public class productFlow extends baseE2E {
 
     String ss = "";
     Condition clickable = and("can be clicked", visible, enabled);

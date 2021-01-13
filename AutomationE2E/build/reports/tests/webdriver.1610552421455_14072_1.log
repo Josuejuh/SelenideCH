@@ -1,0 +1,175 @@
+[1610552421.665][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 15319
+[1610552421.665][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1610552422.474][INFO]: [483acd1f4a04569448a72bbd7204e2fd] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\JaredUrquilla\\IdeaProjects\\SelenideCH\\AutomationE2E\\build\\downloads\\1610552420787_14072_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\JaredUrquilla\\IdeaProjects\\SelenideCH\\AutomationE2E\\build\\downloads\\1610552420787_14072_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1610552422.481][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\JaredUrquilla\\IdeaProjects\\SelenideCH\\AutomationE2E\\build\\downloads\\1610552420787_14072_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1610552422.487][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1610552422.490][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\JAREDU~1\AppData\Local\Temp\scoped_dir616_1642794245" data:,
+[1610552423.078][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610552425.127][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610552427.190][INFO]: [483acd1f4a04569448a72bbd7204e2fd] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.141",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "C:\\Users\\JAREDU~1\\AppData\\Local\\Temp\\scoped_dir616_1642794245"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51040"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "483acd1f4a04569448a72bbd7204e2fd"
+}
+[1610552427.277][INFO]: [483acd1f4a04569448a72bbd7204e2fd] COMMAND MaximizeWindow {
+
+}
+[1610552427.277][INFO]: Waiting for pending navigations...
+[1610552427.280][INFO]: Done waiting for pending navigations. Status: ok
+[1610552427.410][INFO]: Waiting for pending navigations...
+[1610552427.411][INFO]: Done waiting for pending navigations. Status: ok
+[1610552427.411][INFO]: [483acd1f4a04569448a72bbd7204e2fd] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1610552427.421][INFO]: [483acd1f4a04569448a72bbd7204e2fd] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1610552427.421][INFO]: [483acd1f4a04569448a72bbd7204e2fd] RESPONSE SetTimeouts
+[1610552427.437][INFO]: [483acd1f4a04569448a72bbd7204e2fd] COMMAND Navigate {
+   "url": "http://automationpractice.com/index.php"
+}
+[1610552427.437][INFO]: Waiting for pending navigations...
+[1610552427.438][INFO]: Done waiting for pending navigations. Status: ok
+[1610552432.203][INFO]: Waiting for pending navigations...
+[1610552434.082][INFO]: Done waiting for pending navigations. Status: ok
+[1610552434.082][INFO]: [483acd1f4a04569448a72bbd7204e2fd] RESPONSE Navigate
+[1610552434.166][INFO]: [483acd1f4a04569448a72bbd7204e2fd] COMMAND Quit {
+
+}
+[1610552434.240][INFO]: [483acd1f4a04569448a72bbd7204e2fd] RESPONSE Quit

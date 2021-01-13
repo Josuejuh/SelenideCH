@@ -1,27 +1,30 @@
+package config;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.codeborne.selenide.Configuration;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.URL;
 import java.util.Properties;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class configClass {
-
+public class baseE2E extends reports{
     public Properties prop;
-    public static ExtentReports report;
-    public static ExtentTest test;
 
     @BeforeTest
     public void openBrowser() throws IOException {
 
         //Reading the properties
         prop = new Properties();
-        FileInputStream fis = new FileInputStream("files/data.properties");
+        FileInputStream fis = new FileInputStream("../AutomationCore/files/properties/data.properties");
+        //FileInputStream fis = new FileInputStream("files/properties/data.properties");
         prop.load(fis);
 
         //Declaring variables for each properties
@@ -36,13 +39,6 @@ public class configClass {
         //Parameter of the name of the browser in which we want to run the test
         Configuration.browser = nameBr;
 
-        //Configurations report
-        ExtentHtmlReporter reporter=new ExtentHtmlReporter("./reports/ReportFull.html");
-        reporter.config().setReportName("Full Report");
-        reporter.config().setTheme(Theme.DARK);
-        reporter.config().setDocumentTitle("Full Report");
-        report = new ExtentReports();
-        report.attachReporter(reporter);
 
         //Open URL on browser
         open(url);
@@ -51,10 +47,9 @@ public class configClass {
 
     @AfterTest
     public void closeBrowser(){
-        //Ending report and closing browser
+        //Closing browser
         //Selenide.closeWebDriver();
-        report.flush();
+
 
     }
-
 }

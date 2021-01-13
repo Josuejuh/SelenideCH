@@ -1,33 +1,15 @@
 package applaudo;
 
+
+import config.baseAPI;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Properties;
 
-public class ApiTest {
 
-    public Properties prop;
-    public String name = "";
-    public String getName = "";
-    public String characters = "";
+public class ApiTest extends baseAPI {
 
-    @BeforeClass
-    public void setup() throws IOException {
-        prop = new Properties();
-        FileInputStream fis = new FileInputStream("files/properties/data.properties");
-        prop.load(fis);
-
-        name = prop.getProperty("name");
-        getName = prop.getProperty("url1");
-        characters = prop.getProperty("url2");
-
-        RestAssured.baseURI = prop.getProperty("url");
-        RestAssured.port = Integer.parseInt(prop.getProperty("port"));
-    }
 
     @Test
     public void gettingInfo()
@@ -37,6 +19,7 @@ public class ApiTest {
 
         System.out.println("Exercise 1");
         System.out.println("Birthday date of " + name + " is: " + firstRes);
+        System.out.println(" ");
     }
 
     @Test
