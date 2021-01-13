@@ -2,13 +2,14 @@ package applaudo;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.testng.annotations.*;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class AppTest
-{
+public class ApiTest {
+
     public Properties prop;
     public String name = "";
     public String getName = "";
@@ -53,5 +54,4 @@ public class AppTest
         }
 
     }
-
 }

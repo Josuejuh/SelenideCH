@@ -4,15 +4,13 @@ package applaudo.test;
 import applaudo.pageObject.*;
 import applaudo.utilities.*;
 import com.aventstack.extentreports.MediaEntityBuilder;
-import com.aventstack.extentreports.Status;
 import com.codeborne.selenide.Condition;
 import org.testng.annotations.*;
 import java.io.IOException;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
-public class productFlow extends base
-{
+public class productFlow extends base{
 
     String ss = "";
     Condition clickable = and("can be clicked", visible, enabled);

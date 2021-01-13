@@ -1,20 +1,17 @@
-package applaudo.test;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.codeborne.selenide.Configuration;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-
+import org.testng.annotations.*;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class base {
+public class configClass {
+
     public Properties prop;
     public static ExtentReports report;
     public static ExtentTest test;
@@ -59,4 +56,5 @@ public class base {
         report.flush();
 
     }
+
 }
