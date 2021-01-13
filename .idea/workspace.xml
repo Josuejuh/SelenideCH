@@ -6,30 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d8c17275-e0af-49a0-b4f6-82b292ce6da0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationAPI/AutomationAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationAPI/AutomationAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationAPI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationAPI/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationAPI/files/properties/data.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationAPI/src/test/java/applaudo/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationAPI/src/test/java/applaudo/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationAPI/target/test-classes/applaudo/ApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationAPI/target/test-classes/applaudo/ApiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationAPI/target/test-classes/applaudo/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationCore/AutomationCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationCore/AutomationCore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationCore/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationCore/src/main/java/configClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationCore/target/classes/configClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/AutomationE2E.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/AutomationE2E.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/files/data.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/reports/ReportFull.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/reports/ReportFull.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/test/base.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/utilities/highlight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/utilities/screenshots.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/pageObject/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/pageObject/Home.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/src/test/java/applaudo/test/footerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/src/test/java/applaudo/test/footerInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/src/test/java/applaudo/test/productFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/src/test/java/applaudo/test/productFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/test/base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/utilities/highlight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/utilities/screenshots.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/target/test-classes/applaudo/test/footerInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/target/test-classes/applaudo/test/footerInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/target/test-classes/applaudo/test/productFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/target/test-classes/applaudo/test/productFlow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +30,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1n1AN5opE8IIaf9CVCknOruMjp7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -75,52 +68,6 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-  </component>
-  <component name="RunManager" selected="TestNG.C:/Users/JaredUrquilla/IdeaProjects/SelenideCH/AutomationAPI/testng.xml">
-    <configuration name="ApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationAPI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="applaudo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="applaudo" />
-      <option name="MAIN_CLASS_NAME" value="applaudo.ApiTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/JaredUrquilla/IdeaProjects/SelenideCH/AutomationAPI/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationAPI" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/AutomationAPI/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/JaredUrquilla/IdeaProjects/SelenideCH/AutomationE2E/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationE2E" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/AutomationE2E/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.C:/Users/JaredUrquilla/IdeaProjects/SelenideCH/AutomationAPI/testng.xml" />
-        <item itemvalue="TestNG.C:/Users/JaredUrquilla/IdeaProjects/SelenideCH/AutomationE2E/testng.xml" />
-        <item itemvalue="TestNG.ApiTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

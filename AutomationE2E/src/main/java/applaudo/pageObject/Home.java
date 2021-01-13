@@ -16,25 +16,9 @@ public class Home {
     public SelenideElement searchButton () {
         return $(By.name("submit_search"));
     }
-//TODO - SIMPLIFICAR EL EN TEST
-    public SelenideElement contact01(){
-        return $(By.xpath("//section[@id='block_contact_infos']/div[1]/ul[@class='toggle-footer']/li[1]"));
-    }
-
-    public SelenideElement contact02(){
-        return $(By.xpath("//section[@id='block_contact_infos']/div[1]/ul[@class='toggle-footer']/li[2]/span[1]"));
-    }
-
-    public SelenideElement contact03(){
-        return $(By.xpath("//section[@id='block_contact_infos']/div[1]/ul[@class='toggle-footer']/li[3]/span[1]/a[1]"));
-    }
 
     public void scroll(SelenideElement element, WebDriver driver){
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-    }
-
-    public void waitHm() throws InterruptedException {
-    Thread.sleep(3000);
     }
 
 }
