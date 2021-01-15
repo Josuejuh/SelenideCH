@@ -5,8 +5,8 @@
         <classes>
             <class name="applaudo.ApiTest">
                 <methods>
-                    <include name="gettingInfo"/>
-                    <include name="gettingPOJO"/>
+                    <include name="gettingInfoOneCharacter"/>
+                    <include name="getAllCharacters"/>
                 </methods>
             </class>
         </classes>

@@ -1,21 +1,29 @@
 package applaudo;
 
 
-import config.baseAPI;
+import applaudo.configuration.BaseAPI;
+import applaudo.test.PojoCharacter;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.apache.http.HttpStatus;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.io.IOException;
 
 
-public class ApiTest extends baseAPI {
+public class ApiTest extends BaseAPI {
 
+    String getName = "/characters?name=";
+    String name = "Walter White";
+    String characters = "/characters";
 
     @Test
-    public void gettingInfo()
+    public void gettingInfoOneCharacter()
     {
         //Obtain the response for the API and complete path that we are hitting
         Response response = RestAssured.get(getName+name);
+        //Get status code of the response and assertion of it
+        Assert.assertEquals(response.getStatusCode(),200,"Correct status code!");
         //Filter and obtain only the field birthday that comes on the JSON or response
         String firstRes = response.jsonPath().getString("birthday");
         //Printing values
@@ -25,9 +33,11 @@ public class ApiTest extends baseAPI {
     }
 
     @Test
-    public void gettingPOJO() throws IOException {
+    public void getAllCharacters() throws IOException {
         //Obtain the response for the API and complete path that we are hitting
         Response response = RestAssured.get(characters);
+        //Get status code of the response and assertion of it
+        Assert.assertEquals(response.getStatusCode(),200,"Correct status code!");
         //Put in an array type of the POJO class the JSON that we got on the response
         PojoCharacter[] allCharacters = response.jsonPath().getObject("",PojoCharacter[].class );
 

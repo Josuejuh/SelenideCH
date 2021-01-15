@@ -11,4 +11,6 @@ public class Cart {
         return $(By.cssSelector("a[title='Delete'][class='cart_quantity_delete']"));
     }
 
+
+
 }
