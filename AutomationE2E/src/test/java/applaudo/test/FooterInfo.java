@@ -17,11 +17,11 @@ public class FooterInfo extends BaseE2E {
         //Locate the main element of the information of the store in the footer and scroll to it
         SelenideElement footerStore = ElementsExtension.scroll($("#block_contact_infos").should(exist));
         //First subElement on the footer section and assertion
-        checkInfo.footerInfo(footerStore,"Selenium Framework, Research Triangle Park, North Carolina, USA");
+        checkInfo.footerInfoCheck(footerStore,"Selenium Framework, Research Triangle Park, North Carolina, USA");
         //Second subElement on the footer section and assertion
-        checkInfo.footerInfo(footerStore,"(347) 466-7432");
+        checkInfo.footerInfoCheck(footerStore,"(347) 466-7432");
         //Third subElement on the footer section and assertion
-        checkInfo.footerInfo(footerStore,"support@seleniumframework.com");
+        checkInfo.footerInfoCheck(footerStore,"support@seleniumframework.com");
     }
 
 

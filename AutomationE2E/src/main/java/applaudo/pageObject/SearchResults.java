@@ -18,7 +18,7 @@ public class SearchResults {
         return ElementsExtension.highlightElement($(By.xpath("//span[contains(text(),'Add to cart')]")).shouldBe(clickable));
     }
 
-    public SelenideElement cartProducts(){
+    public SelenideElement productsOnCart(){
         return ElementsExtension.highlightElement($(By.cssSelector("a[title='View my shopping cart']")).shouldBe(clickable));
     }
 

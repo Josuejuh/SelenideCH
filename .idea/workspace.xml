@@ -6,29 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d8c17275-e0af-49a0-b4f6-82b292ce6da0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationAPI/src/test/java/applaudo/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationAPI/src/test/java/applaudo/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationCore/src/main/java/utilities/ConditionExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationCore/src/main/java/utilities/ConditionExtension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationCore/src/main/java/utilities/ElementsExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationCore/src/main/java/utilities/ElementsExtension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationCore/src/main/java/utilities/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationCore/src/main/java/utilities/Listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationCore/target/classes/utilities/ConditionExtension.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationCore/target/classes/utilities/ConditionExtension.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationCore/target/classes/utilities/ElementsExtension.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationCore/target/classes/utilities/ElementsExtension.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationCore/target/classes/utilities/Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationCore/target/classes/utilities/Listener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/reports/ReportFull.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/reports/ReportFull.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/cartEmpty.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/screenshots/cartEmpty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/cartWithProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/screenshots/cartWithProduct.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/cartWithProduct.png" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/screenshots/cartWithProduct.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/checkStoreInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/screenshots/checkStoreInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/searchNegativeResult.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/screenshots/searchNegativeResult.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/searchPositiveResult.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/screenshots/searchPositiveResult.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/screenshots/searchPositiveResult.png" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/screenshots/searchPositiveResult.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/pageObject/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/pageObject/Cart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/pageObject/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/pageObject/Home.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/pageObject/SearchResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/src/main/java/applaudo/pageObject/SearchResults.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/src/test/java/applaudo/test/FooterInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/src/test/java/applaudo/test/FooterInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomationE2E/src/test/java/applaudo/test/ProductFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/src/test/java/applaudo/test/ProductFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/pageObject/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/pageObject/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/pageObject/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/pageObject/Home.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/pageObject/SearchResults.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationE2E/target/classes/applaudo/pageObject/SearchResults.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

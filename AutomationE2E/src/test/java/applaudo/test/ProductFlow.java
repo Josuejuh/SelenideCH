@@ -2,7 +2,6 @@ package applaudo.test;
 
 import applaudo.pageObject.*;
 
-import com.codeborne.selenide.Condition;
 import org.openqa.selenium.By;
 import org.testng.annotations.*;
 import java.io.IOException;
@@ -14,7 +13,7 @@ import static utilities.ConditionExtension.clickable;
 public class ProductFlow extends BaseE2E {
     //Create objects to interact with the respective locators and actions
     Home searching = new Home();
-    SearchResults productHandle = new SearchResults();
+    SearchResults resultsHandle = new SearchResults();
     Cart deleteProductsOnCart = new Cart();
 
     @Test ()
@@ -30,21 +29,21 @@ public class ProductFlow extends BaseE2E {
         //Access process to do the search
         searching.searchProcess("dress");
         //Assertion to check if the search return something
-        productHandle.getProductInfoByIndex(1).shouldBe(visible);
+        resultsHandle.getProductInfoByIndex(1).shouldBe(visible);
     }
 
-    @Test (priority = 2)
+    @Test(priority = 2)
     public void cartWithProduct() throws IOException {
-            //Click a product result of the search
-            productHandle.getProductInfoByIndex(1).click();
-            //Add item to cart
-            productHandle.addItemToCart().click();
-            //Check if item is clickable and close thw windows popUp
-            productHandle.exitPopUp().click();
-            //Highlight and click to the cart button
-            productHandle.cartProducts().click();
-            //Assertion to check if the cart contains something
-            deleteProductsOnCart.btnDeleteProductsFromCart().shouldBe(visible);
+        //Click a product result of the search
+        resultsHandle.getProductInfoByIndex(1).click();
+        //Add item to cart
+        resultsHandle.addItemToCart().click();
+        //Check if item is clickable and close thw windows popUp
+        resultsHandle.exitPopUp().click();
+        //Highlight and click to the cart button
+        resultsHandle.productsOnCart().click();
+        //Assertion to check if the cart contains something
+        deleteProductsOnCart.btnDeleteProductsFromCart().shouldBe(visible);
     }
 
     @Test (priority = 3)

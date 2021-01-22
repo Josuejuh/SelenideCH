@@ -21,7 +21,7 @@ public class Home {
 
     }
 
-    public void footerInfo (SelenideElement element, String txt){
+    public void footerInfoCheck (SelenideElement element, String txt){
         ElementsExtension.highlightElement(element.$(byText(txt))).shouldBe(visible);
     }
 
