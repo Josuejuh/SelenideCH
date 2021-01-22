@@ -18,8 +18,8 @@ public class ElementsExtension {
         return element;
     }
 
-    public static void scroll(SelenideElement element){
-        element.scrollIntoView(true);
+    public static SelenideElement scroll(SelenideElement element){
+        return element.scrollIntoView(true);
     }
 
 }

@@ -21,9 +21,9 @@ public class ApiTest extends BaseAPI {
     public void gettingInfoOneCharacter()
     {
         //Obtain the response for the API and complete path that we are hitting
-        Response response = RestAssured.get(getName+name);
+        Response response = RestAssured.get(getName+name).then().statusCode(200).extract().response();
         //Get status code of the response and assertion of it
-        Assert.assertEquals(response.getStatusCode(),200,"Correct status code!");
+        //Assert.assertEquals(response.getStatusCode(),200,"Correct status code!");
         //Filter and obtain only the field birthday that comes on the JSON or response
         String firstRes = response.jsonPath().getString("birthday");
         //Printing values
@@ -35,9 +35,7 @@ public class ApiTest extends BaseAPI {
     @Test
     public void getAllCharacters() throws IOException {
         //Obtain the response for the API and complete path that we are hitting
-        Response response = RestAssured.get(characters);
-        //Get status code of the response and assertion of it
-        Assert.assertEquals(response.getStatusCode(),200,"Correct status code!");
+        Response response = RestAssured.get(characters).then().statusCode(200).extract().response();
         //Put in an array type of the POJO class the JSON that we got on the response
         PojoCharacter[] allCharacters = response.jsonPath().getObject("",PojoCharacter[].class );
 

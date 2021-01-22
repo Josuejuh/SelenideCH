@@ -24,13 +24,13 @@ public class Listener extends TestListenerAdapter
 
     public void onStart(ITestContext testContext)
     {
+        //Configuration of report, path to save it
         ExtentHtmlReporter reporter = new ExtentHtmlReporter("../AutomationE2E/reports/ReportFull.html");
         //htmlReporter.loadXMLConfig(System.getProperty("user.dir")+ "/extent-config.xml");
-
+        //Other configuration for the report
         reporter.config().setReportName("Full Report");
         reporter.config().setTheme(Theme.DARK);
         reporter.config().setDocumentTitle("Full Report");
-
         report = new ExtentReports();
         report.attachReporter(reporter);
 
@@ -38,11 +38,12 @@ public class Listener extends TestListenerAdapter
 
     public void onTestSuccess(ITestResult tr)
     {
-        logger=report.createTest(tr.getName()); // create new entry in th report
-        logger.log(Status.PASS,MarkupHelper.createLabel(tr.getName(),ExtentColor.GREEN)); // send the passed information to the report with GREEN color highlighted
-
+        //Create a new entry in the report
+        logger=report.createTest(tr.getName());
+        logger.log(Status.PASS,MarkupHelper.createLabel(tr.getName(),ExtentColor.GREEN));
+        //Capture the screen at the end of the test
         String pngFileName = screenshot(tr.getName());
-
+        //Add the screenshot to the report
         try {
             logger.pass("Screenshot is below:", MediaEntityBuilder.createScreenCaptureFromPath(pngFileName).build());
         } catch (IOException e) {
@@ -52,10 +53,12 @@ public class Listener extends TestListenerAdapter
 
     public void onTestFailure(ITestResult tr)
     {
-        logger=report.createTest(tr.getName()); // create new entry in th report
-        logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED)); // send the passed information to the report with GREEN color highlighted
-
+        //Create a new entry in the report
+        logger=report.createTest(tr.getName());
+        logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED));
+        //Capture the screen at the end of the test
         String pngFileName = screenshot(tr.getName());
+        //Add the screenshot to the report
         try {
             logger.fail("Screenshot is below:" , MediaEntityBuilder.createScreenCaptureFromPath(pngFileName).build());
         } catch (IOException e) {
@@ -65,12 +68,14 @@ public class Listener extends TestListenerAdapter
 
     public void onTestSkipped(ITestResult tr)
     {
-        logger=report.createTest(tr.getName()); // create new entry in th report
+        //Create a new entry in the report
+        logger=report.createTest(tr.getName());
         logger.log(Status.SKIP,MarkupHelper.createLabel(tr.getName(),ExtentColor.ORANGE));
     }
 
     public void onFinish(ITestContext testContext)
     {
+        //Action to do on the final of each test
         report.flush();
     }
 

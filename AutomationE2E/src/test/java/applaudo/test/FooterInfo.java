@@ -10,23 +10,18 @@ import static com.codeborne.selenide.Selenide.$;
 
 
 public class FooterInfo extends BaseE2E {
-
+    //Create object type Home for doing the assertion of the Store Info
+    Home checkInfo = new Home();
     @Test
     public void checkStoreInfo() throws IOException {
-        //Create object Home for doing the scroll to the webElement
-        Home ho = new Home();
-        //Locate the main element of the information of the store in the footer
-        SelenideElement footerInfo = $("#block_contact_infos").should(exist);
-        //Scroll to the element
-        ElementsExtension.scroll(footerInfo);
-
+        //Locate the main element of the information of the store in the footer and scroll to it
+        SelenideElement footerStore = ElementsExtension.scroll($("#block_contact_infos").should(exist));
         //First subElement on the footer section and assertion
-        ho.footerInfo(footerInfo,"Selenium Framework, Research Triangle Park, North Carolina, USA");
+        checkInfo.footerInfo(footerStore,"Selenium Framework, Research Triangle Park, North Carolina, USA");
         //Second subElement on the footer section and assertion
-        ho.footerInfo(footerInfo,"(347) 466-7432");
+        checkInfo.footerInfo(footerStore,"(347) 466-7432");
         //Third subElement on the footer section and assertion
-        ho.footerInfo(footerInfo,"support@seleniumframework.com");
-
+        checkInfo.footerInfo(footerStore,"support@seleniumframework.com");
     }
 
 
